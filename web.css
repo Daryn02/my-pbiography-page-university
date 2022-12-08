@@ -1,0 +1,61 @@
+body {
+    font-family:  Georgia, 'Times New Roman', ;
+    /*background: linear-gradient(#aed6dc, #ff9a8d, indigo);*/
+    animation-name: myAnimation;
+    animation-duration: 4s;
+}
+  
+@keyframes myAnimation {
+    from {background-color: red;}
+    to {background-color: #aed6dc}
+    from {color: green;}
+    to {color: black}
+  }
+
+#link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+TABLE {
+    width: 1200px;
+    border: 3px solid white; 
+    }
+    TD, TH {
+    padding: 9px; 
+    border: 1px white black;
+    background: white;
+    }
+    TH {
+    text-align: left; 
+    background: linear-gradient(#ff9a8d, indigo); 
+    color: white; 
+ }
+    H2 { 
+     font-size: 120%; 
+     font-family: Verdana; 
+    }
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
+}
+#myLifeCronology{
+    font-family: Georgia;
+    font-style: oblique;
+}
+input {
+    margin-top: 3px;
+    padding:2px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 3px solid #dcdcdc;
+} 
+
+.myPhoto {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(
+      100%
+    ); /* Чёрно-белое изображение */
+    transition: 1.5s; /* Плавный переход */
+}
+

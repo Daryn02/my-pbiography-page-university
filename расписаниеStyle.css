@@ -1,0 +1,39 @@
+
+.timeTd{
+  background-color: in;
+}
+caption{
+  font-size: large;
+  font-size: 30px
+}
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-radius: 10px;
+  border-spacing: 0;
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+  table-layout: fixed;
+  width: 56%;
+}
+th{
+  background-color: #ffe785;
+  border: 2px solid white;
+
+}
+td{
+  background-color: #f5f5dc;
+  width: 8%;
+  height: 150px;
+  border: 2px solid white;
+  padding: 1px;
+  text-align: left;
+  line-height: 1;
+}
+.mytable{
+  
+  border: 2px solid black;
+  font-size:large;
+}
+
